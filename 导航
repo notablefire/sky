@@ -1,0 +1,158 @@
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<link rel ="stylesheet" type="text/css" href="何金洋仿苹果导航.css">
+	<link rel ="stylesheet" type="text/javescript" href="何金洋仿苹果导航.js">
+	<title>仿苹果导航</title>
+	</head>
+<body>
+<div id="nav">
+<ul>
+<li>
+<a href="#">何金洋</a>
+</li>
+<li><a href="#">党中央</a>
+
+<ul>
+<li><a href="#">纪委</a></li>
+<li><a href="#">国务院</a></li>
+<li><a href="#">国安局</a></li>
+<li><a href="#">公安局</a>
+<ul>
+<li><a href="#">派出所</a></li>
+<li><a href="#">城管</a></li>
+<li><a href="#">网管</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#">重邮</a></li>
+<li><a href="#">红岩</a></li>
+<li><a href="#">网校</a></li>
+<li><a href="#">前端</a></li>
+<li><a href="#">开发</a></li>
+</ul>
+<input type="text" id="kw" value='' />
+</div>
+</body>
+</html>
+
+
+
+body{ 
+font-family:Arial; 
+font-size:12px;
+color:#4b4b4b; 
+text-align:center;}
+ul { list-style:none; }
+#nav{ 
+position:relative;
+margin-left:auto; 
+margin-right:auto; 
+text-align:left; 
+width:960px; 
+height:36px;
+margin-top:15px; 
+border:0px;
+border-radius:5px;
+box-shadow: inset 0 0 1px #fff;
+background:#c2c2c2;
+background:-moz-linear-gradient(center top, rgba(100,100,100,1), rgba(113,113,113,0.9) 49%, rgba(90,90,90,0.9) 50%, rgba(116,116,116,1));
+background:-webkit-gradient(linear, center top, center bottom, from(rgba(100,100,100,1)), color-stop(49%,rgba(113,113,113,0.9)), color-stop(50%,rgba(90,90,90,0.9)), to(rgba(116,116,116,1)));
+background:-o-linear-gradient(top, rgba(100,100,100,1), rgba(113,113,113,0.9) 49%, rgba(90,90,90,0.9) 50%, rgba(116,116,116,1));}
+#nav  li{
+display:block; 
+color:#ffffff; 
+width:100px;
+height:36px;
+text-align:center;
+border-right:solid 1px #5b5b5b;
+float:left;
+padding-top:8px;}
+#nav li a{ 
+text-shadow:#000 1px 1px 1px;
+color:#ffffff;
+font-size:13px; 
+text-decoration:none;
+font-family:"Lucida Sans Unicode"; vertical-align:middle;}
+#nav li ul a:link  {
+ color:#666; text-decoration:none;
+}
+#nav li ul a:visited  {
+ color:#666;text-decoration:none;
+}
+#nav ul li a:hover {
+color:darkred;
+text-shadow:#111111 2px 2px 2px;}
+#nav ul li ul{ display:none;}
+#nav ul li:hover ul{
+display:block; 
+width:100px;
+height:36px;
+position:absolute;color:darkred;
+text-shadow:#111111 2px 2px 2px;}
+#nav ul li:hover ul li{
+font-color:#ffffff; display:block; 
+font-size:13px; 
+width:100px;
+height:36px;
+position:relative;
+text-align:center;
+background:#c2c2c2;
+background:-moz-linear-gradient(center top, rgba(100,100,100,1), rgba(113,113,113,0.9) 49%, rgba(90,90,90,0.9) 50%, rgba(116,116,116,1));
+background:-webkit-gradient(linear, center top, center bottom, from(rgba(100,100,100,1)), color-stop(49%,rgba(113,113,113,0.9)), color-stop(50%,rgba(90,90,90,0.9)), to(rgba(116,116,116,1)));
+background:-o-linear-gradient(top, rgba(100,100,100,1), rgba(113,113,113,0.9) 49%, rgba(90,90,90,0.9) 50%, rgba(116,116,116,1));}}
+#nav ul li:hover ul li a{
+	display:block;
+	width:98px;
+	height:36px;
+	color:#ffffff; }
+#nav ul li:hover ul li a:hover{background:center top, rgba(100,100,100,1), rgba(113,113,113,0.9) 49%, rgba(90,90,90,0.9) 50%, rgba(116,116,116,1));}
+#nav ul li:hover ul  li ul{display:none;}
+#nav ul li:hover ul  li:hover ul{
+	display:block;
+	width:100px;
+	position:absolute;}
+#nav ul li:hover ul  li:hover ul   #right_side li{ 
+width:100px;
+height:36px;
+position:absolute;
+font-color:#ffffff;
+font-size:13px; 
+width:100px;
+height:36px;
+position:relative;
+text-align:center;
+background:#c2c2c2;
+border-right:solid 1px #5b5b5b;
+background:-moz-linear-gradient(center top, rgba(100,100,100,1), rgba(113,113,113,0.9) 49%, rgba(90,90,90,0.9) 50%, rgba(116,116,116,1));
+background:-webkit-gradient(linear, center top, center bottom, from(rgba(100,100,100,1)), color-stop(49%,rgba(113,113,113,0.9)), color-stop(50%,rgba(90,90,90,0.9)), to(rgba(116,116,116,1)));
+background:-o-linear-gradient(top, rgba(100,100,100,1), rgba(113,113,113,0.9) 49%, rgba(90,90,90,0.9) 50%, rgba(116,116,116,1));}}}
+#nav ul li:hover ul  li:hover ul   #right_side li a{
+	display:block;
+	width:96px;
+	height:26px;}
+#nav ul li:hover ul  li:hover ul    #right_sideli a:hover {
+background:#c2c2c2;}
+#nav input { 
+display:block; 
+width:120px; 
+float:left;
+margin-top:8px;
+background:transparent;
+height:20px;
+margin-left:15px;
+vertical-align:middle;
+font-family:"sans-serif"; 
+font-size:14px;
+text-indent:26px;
+border:0px;
+border-bottom:inset 1px #353535;
+border-radius:8px;
+border-radius:8px;
+border-radius:8px;
+border-radius:8px;
+box-shadow:inset 0px 2px 1px #353535;
+box-shadow:inset 0px 2px 1px #353535;
+box-shadow:inset 0px 2px 1px #353535;
+}
